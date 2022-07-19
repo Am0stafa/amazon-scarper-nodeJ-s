@@ -1,0 +1,26 @@
+{
+  "name": "amazon-scarper-nodej-s",
+  "version": "1.0.0",
+  "description": "amazon data scraper api is the easiest way to get access to products, price, sales rank and reviews data from Amazon in JSON formate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Am0stafa/amazon-scarper-nodeJ-s.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Am0stafa/amazon-scarper-nodeJ-s/issues"
+  },
+  "homepage": "https://github.com/Am0stafa/amazon-scarper-nodeJ-s#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
