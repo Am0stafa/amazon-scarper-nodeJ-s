@@ -5,11 +5,7 @@ var restify = require('restify');
 
 const PORT = process.env.PORT || 3100;
 const app = express();
-app.use(restify.CORS({
-    origins: ['*'],   // defaults to ['*']
-    credentials: true,                 // defaults to false
-    headers: ['x-foo']                 // sets expose-headers
-}));
+app.use(cors());
 
 app.use(express.json());
 
